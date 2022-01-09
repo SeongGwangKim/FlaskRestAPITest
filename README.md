@@ -1,7 +1,5 @@
 # FlaskRestAPI
 
-![업로드된원본](https://user-images.githubusercontent.com/78336335/148682864-51b41514-cf92-42c0-9de6-286d3bb0be81.png)
-
 
 1. json으로 이미지 파일의 이름을 보낸다.
 
