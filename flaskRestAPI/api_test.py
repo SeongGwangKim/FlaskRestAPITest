@@ -1,10 +1,9 @@
 import requests
 import json
 
-post_data = [{
-                "origin": "temp.jpg",
-
-            }]
+# temp.jpg
+# sunny.png
+post_data = [ { "origin": "temp.jpg" } ]
 
 url = 'http://127.0.0.1:5000/transimage'
 

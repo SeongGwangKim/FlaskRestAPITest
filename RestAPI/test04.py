@@ -13,6 +13,6 @@ import boto3
 s3 = boto3.resource('s3', AWS_ACCESS_KEY, AWS_SECRET_ACCESS_KEY, AWS_S3_BUCKET_REGION)
 s3.Object(AWS_S3_BUCKET_NAME, 'temp.jpg').get_object('/temp.jpg')
 
-import boto3
-
-s3 = boto3.client('s3')
+# import boto3
+#
+# s3 = boto3.client('s3')

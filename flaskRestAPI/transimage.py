@@ -32,5 +32,5 @@ def transfer_image(image, filename):
     return output
 
 # if __name__ == "__main__":
-#     image = img = cv2.imread('temp.jpg')
+#     image = cv2.imread('temp.jpg')
 #     transfer_image(image, "temp.jpg")

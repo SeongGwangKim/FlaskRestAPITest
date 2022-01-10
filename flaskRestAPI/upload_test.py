@@ -30,5 +30,5 @@ def upload_file(file_name, object_name=None):
     return True
 
 # if __name__ == "__main__":
-#     upload_file("temp1.jpg")
-#     os.remove('temp1.jpg')
+#     upload_file("sunny.png")
+#     os.remove('sunny.png')
