@@ -27,7 +27,3 @@ def preprocess_image(image, filename):
   fake_image = Image.fromarray(tf.cast(fake_image, tf.uint8).numpy())
   fake_image.save("rev_"+"%s" % filename)
   return fake_image
-
-# if __name__ == "__main__":
-#     image = cv2.imread("Original Image.jpg")
-#     preprocess_image(image, "Original Image.jpg")
