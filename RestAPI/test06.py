@@ -1,7 +1,7 @@
 import boto3
 
 s3 = boto3.client('s3')
-with open('temp1.jpg', 'wb') as f:
+with open('../flaskRestAPI/temp1.jpg', 'wb') as f:
     s3.download_fileobj('transimagetest', 'temp.jpg', f)
 
 #

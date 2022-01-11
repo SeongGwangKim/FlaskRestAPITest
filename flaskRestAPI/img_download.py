@@ -7,10 +7,10 @@ import urllib.request
 
 def download_img(filename):
 
-    # # 이미지 다운로드
-    # urllib.request.urlretrieve(
-    #     "https://transimagetest.s3.ap-northeast-2.amazonaws.com/"+filename,
-    #     filename)
+    # 이미지 다운로드
+    urllib.request.urlretrieve(
+        "https://transimagetest.s3.ap-northeast-2.amazonaws.com/"+filename,
+        filename)
 
     # 다운받을 이미지 url
     url = "https://transimagetest.s3.ap-northeast-2.amazonaws.com/"+filename

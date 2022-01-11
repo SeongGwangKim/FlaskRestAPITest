@@ -2,9 +2,11 @@ import os
 
 from flask import Flask, jsonify, request
 from flaskRestAPI.img_download import download_img
+from flaskRestAPI.plusimage import plusimg
 from flaskRestAPI.trans_esrgan import preprocess_image
 from flaskRestAPI.transimage import transfer_image
 from flaskRestAPI.upload_test import upload_file
+
 
 app = Flask(__name__)
 
@@ -20,7 +22,8 @@ def transimage():
 
     # 이미지 변환
     # transfer_image(img, file_name)
-    preprocess_image(img, file_name)
+    # preprocess_image(img, file_name)
+    plusimg(img, file_name)
 
     # json에 보내줄 이름
     rev_file_name = "rev_" + file_name
